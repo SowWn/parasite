@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parasite", "parasite\parasite.vcproj", "{A023341B-9CC7-49C5-8E7B-3BB1ADA8C012}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3} = {FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libparasite", "libparasite\libparasite.vcproj", "{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A023341B-9CC7-49C5-8E7B-3BB1ADA8C012}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A023341B-9CC7-49C5-8E7B-3BB1ADA8C012}.Debug|Win32.Build.0 = Debug|Win32
+		{A023341B-9CC7-49C5-8E7B-3BB1ADA8C012}.Release|Win32.ActiveCfg = Release|Win32
+		{A023341B-9CC7-49C5-8E7B-3BB1ADA8C012}.Release|Win32.Build.0 = Release|Win32
+		{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}.Debug|Win32.Build.0 = Debug|Win32
+		{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}.Release|Win32.ActiveCfg = Release|Win32
+		{FC80ABD4-BB1F-45ED-9CF8-EA3E1FACD1D3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
